@@ -15,8 +15,8 @@
             <ColumnDefinition ></ColumnDefinition>
             <ColumnDefinition ></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.Column="0" Name="textboxuserid" Content="_Gebruikersnaam" Margin="5"></Label>
-        <Label Grid.Row="1" Grid.Column="0" Name="textboxpassword" Content="_Password"  Margin="5" ></Label>
+        <Label Grid.Row="0" Grid.Column="0" Name="textboxuserid" Content="_Gebruikersnaam" Margin="5" Target="{Binding ElementName=textboxuserid}"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Name="textboxpassword" Content="_Password"  Margin="5" Target="{Binding ElementName=textboxpassword}"></Label>
         <TextBox Grid.Row="0" Grid.Column="1" Name="invuluserid"  Margin="5" ></TextBox>
         <PasswordBox Grid.Row="1" Grid.Column="1" Name="invulpassword"  Margin="5"></PasswordBox>
     </Grid>
