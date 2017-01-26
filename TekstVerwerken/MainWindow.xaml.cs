@@ -18,9 +18,9 @@ namespace TekstVerwerken
     /// <summary>
     /// Interaction logic for TekstVerwerken.xaml
     /// </summary>
-    public partial class TekstVerwerken : Window
+    public partial class MainWindow : Window
     {
-        public TekstVerwerken()
+        public MainWindow()
         {
             InitializeComponent();
         }
