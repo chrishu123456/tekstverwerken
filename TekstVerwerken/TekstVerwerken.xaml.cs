@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace TekstVerwerken
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for TekstVerwerken.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TekstVerwerken : Window
     {
-        public MainWindow()
+        public TekstVerwerken()
         {
             InitializeComponent();
         }

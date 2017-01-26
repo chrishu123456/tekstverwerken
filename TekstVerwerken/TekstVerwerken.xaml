@@ -1,0 +1,23 @@
+﻿<Window x:Class="TekstVerwerken.Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TekstVerwerken"
+        mc:Ignorable="d"
+        Title="Werken met Text" Height="350" Width="525">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Name="textboxuserid" Content="_Gebruikersnaam" Margin="5"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Name="textboxpassword" Content="_Password"  Margin="5" ></Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="invuluserid"  Margin="5" ></TextBox>
+        <PasswordBox Grid.Row="1" Grid.Column="1" Name="invulpassword"  Margin="5"></PasswordBox>
+    </Grid>
+</Window>
