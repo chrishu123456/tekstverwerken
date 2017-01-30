@@ -10,6 +10,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition ></ColumnDefinition>
@@ -19,5 +21,7 @@
         <Label Grid.Row="1" Grid.Column="0" Name="textboxpassword" Content="_Password"  Margin="5" Target="{Binding ElementName=invulpassword}"></Label>
         <TextBox Grid.Row="0" Grid.Column="1" Name="invuluserid"  Margin="5" ></TextBox>
         <PasswordBox Grid.Row="1" Grid.Column="1" Name="invulpassword"  Margin="5" PasswordChar="*" MaxLength="10"></PasswordBox>
+        <Button Grid.Row="2" Content="Probeer maar aan te melden." Margin="0,10,0,10" Click="Button_Click"></Button>
+        <TextBlock Grid.Row="3" Grid.ColumnSpan="2" Name="textBlockAanmelding"></TextBlock>
     </Grid>
 </Window>
